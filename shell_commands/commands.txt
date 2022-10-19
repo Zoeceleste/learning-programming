@@ -1,0 +1,34 @@
+touch <file_name> - creates a new file 
+    touch file.txt 
+mkdir <dir name> creates new directory 
+    mkdir my_dad_is_awesome
+ls <dir name optional> - lists contents of a directory 
+    ls -trl my_dad_is_awesome
+pwd - show current directory 
+cd <optional directory> changes directory 
+    cd my_dad_is_awesome
+code <direcotry> opens vscode in directory specified 
+    code .
+chmod <perms> - changes permissions on a file 
+    chmod 755 <file name> #makes file executable for all 
+    chmod u+x <file name>
+man <cmd> shows the command manual pages 
+
+rm <file name> remove file 
+
+rm -rf <directory> remove directory 
+
+./ - the current directory 
+../ - the parent directory 
+
+#! - specifies the interpreter for the code 
+    #!/usr/local/bin/python3
+
+echo "# learning-programming" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Zoeceleste/learning-programming.git
+git push -u origin main
+mv
